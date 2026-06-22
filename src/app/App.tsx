@@ -35,11 +35,11 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { clsx } from "clsx";
+import clsx from "clsx";
 import { twMerge } from "tailwind-merge";
 
 function cn(...inputs: Parameters<typeof clsx>) {
-  return twMerge(clsx(inputs));
+  return twMerge(clsx(...inputs));
 }
 
 // ─── Types ─────────────────────────────────────────────────────────────────
@@ -276,7 +276,7 @@ export default function App() {
 
             {/* Profile */}
             <div className="flex items-center gap-2 pl-3 border-l border-white/[0.08]">
-              <div className="w-7 h-7 rounded-full bg-gradient-to-br from-purple-500 to-violet-700 flex items-center justify-center text-[11px] font-semibold">
+              <div className="w-7 h-7 rounded-full bg-linear-to-br from-purple-500 to-violet-700 flex items-center justify-center text-[11px] font-semibold">
                 AK
               </div>
               <div className="hidden md:block">
