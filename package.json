@@ -4,11 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "vite build", 
-    "dev": "vite"
-   "watch": "node --watch ./node_modules/.bin/vite build"
-
-
+    "build": "vite build",
+    "dev": "vite",
+    "watch": "node --watch ./node_modules/.bin/vite build"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",

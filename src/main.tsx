@@ -12,7 +12,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 import Sprints from "./pages/Sprints";
 import Analytics from "./pages/Analytics";
 import Settings from "./pages/Settings";
-import "../styles/index.css";
+import "./styles/index.css";
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

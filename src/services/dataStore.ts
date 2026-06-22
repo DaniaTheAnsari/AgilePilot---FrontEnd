@@ -1,4 +1,4 @@
-import { storage } from '../lib/storage';
+import { storage } from '../library/storage';
 
 const KEY = 'agilepilot_v1';
 const defaultState = { users: [], projects: [], sprints: [], tasks: [] };

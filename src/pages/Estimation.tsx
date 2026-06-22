@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm, useFieldArray } from "react-hook-form";
-import { estimateCost } from "../library/estimators";
+import { estimateCost } from "../library/estimator";
 import { DataStore } from "../services/dataStore";
 
 type TaskRow = { name: string; optimistic: number; likely: number; pessimistic: number; hourlyRate?: number };
