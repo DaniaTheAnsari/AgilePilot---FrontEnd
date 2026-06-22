@@ -13,7 +13,7 @@ export default function Dashboard() {
   const done = tasks.filter((t: any) => t.status === "done").length;
   const total = tasks.length || 1;
   const pct = Math.round((done / total) * 100);
-
+<break></break>
   const burndown = [
     { day: "Day 1", ideal: 42, actual: 42 },
     { day: "Day 2", ideal: 38, actual: 39 },
